@@ -8,7 +8,8 @@ app.get('/', function(request, response){
 
 io.on('connection', function(socket){
 	console.log('a user connected');
-	io.emit('userConnection', 'New user connected');
+	socket.broadcast.emit('userConnection', 'New user connected')
+	// io.emit('userConnection', 'New user connected');
 	socket.on('disconnect', function(){
 		console.log('user disconnected');
 		io.emit('userDisconnection', 'User disconnected');
