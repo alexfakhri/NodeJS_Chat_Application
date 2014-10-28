@@ -1,0 +1,27 @@
+{
+  "name": "Chat_application_using_NodeJS",
+  "version": "1.0.0",
+  "description": "Chat app using node and express",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexfakhri/NodeJS_Chat_Application.git"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Alex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexfakhri/NodeJS_Chat_Application/issues"
+  },
+  "homepage": "https://github.com/alexfakhri/NodeJS_Chat_Application"
+}
